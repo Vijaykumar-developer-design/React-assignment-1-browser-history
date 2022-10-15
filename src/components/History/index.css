@@ -1,0 +1,122 @@
+.navbar-container {
+  background-color: #3367d6;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.logo-container {
+  height: 40px;
+  width: 20%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo {
+  width: 20%;
+  height: 30px;
+}
+@media screen and (max-width: 767px) {
+  .logo {
+    height: 20px;
+  }
+}
+.nav-search-container {
+  width: 70%;
+  padding: 5px;
+}
+@media screen and (max-width: 767px) {
+  .nav-search-container {
+    width: 60%;
+  }
+}
+.search-container {
+  display: flex;
+  align-items: center;
+}
+@media screen and(max-width:767px) {
+  .search-container {
+    justify-content: center;
+  }
+}
+.search-image-container {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background-color: #2850a7;
+  width: 60px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid #6697ff 1px;
+}
+.search-image {
+  width: 20px;
+}
+.input {
+  color: #ececec;
+  padding: 10px;
+  width: 48%;
+  background-color: #2850a7;
+  outline: none;
+  border: solid #6697ff 1px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+@media screen and (max-width: 767px) {
+  .input {
+    width: 100%;
+  }
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+..no-history-container {
+  font-size: 40px;
+  font-family: 'Roboto';
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.history-item-container {
+  margin-top: 20px;
+  width: 80%;
+  box-shadow: 0px 0px 2px 2px #ececec;
+}
+
+/* .container {
+  display: flex;
+  margin: 10px;
+}
+.time {
+  margin-right: 40px;
+}
+.logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+.heading {
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.link {
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.background-container {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.delete-btn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  margin-top: 30px;
+  cursor: pointer;
+} */
